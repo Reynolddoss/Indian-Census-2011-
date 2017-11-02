@@ -14,7 +14,7 @@ The below link is from where the shapefile for india can be downloaded.
 https://www.arcgis.com/home/item.html?id=cf9b387de48248a687aafdd4cdff1127 
 
 
-## 1.Create​ ​ a ​ ​ geographic​ ​ map​ ​ of​ ​ states​ ​ with​ ​ low​ ​ literacy​ ​ rates
+## 1.Create​​ a geographic​ map​ ​of​ ​states​ ​with​ ​low​ ​literacy​ ​rates.
 1. Extracting State name, Population and LIterates from dateset
 2. Checking for null vlaues 
 3. Unique values are found from this dataframe so that all the district are grouped into their respective States
@@ -26,7 +26,7 @@ https://www.arcgis.com/home/item.html?id=cf9b387de48248a687aafdd4cdff1127
 
 ![Alt text](c.png?raw=true "india")
 
-## 2.Fin out most similar districts in Bihar and Tamil Nadu.
+## 2.Find out most similar districts in Bihar and Tamil Nadu.
 1. Extract the dataset for BIHAR and Tamil Nadu 
 2. Select Columns (District name,Literate,Agrictultural workers) wrt to both states.
 3. Concatenate both the state data
@@ -38,6 +38,11 @@ https://www.arcgis.com/home/item.html?id=cf9b387de48248a687aafdd4cdff1127
 ![Alt text](a.png?raw=true "Similar districs")
 
 ## 3. How does the mobile penetration vary in regions (districts or states) with high or low agricultural workers.
+1. A data frame of State name,Households_with_Telephone_Mobile_Phone_Mobile_only and Agricultural_workers is made.
+2. Using the ploty api a variation comparison graph is ploted as shown below.
+3. Implying that the mobile pnetration is proportional wrt high and low agricultural workers.
+
+![Alt text](b.png?raw=true "mobile penetration")
 
 
 
